@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="/assets/index.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div id="blankdiv"></div>
+    <div id="contextdiv">
+      <img id="commerce" src="/assets/commerce.jpeg"/>
+      <div style="
+      clear: both;
+      background-color: #f5f5f5;
+      display: block;
+      "class="right" id="">
+        <a class="a1" id="personal" href="#">Personal</a>
+        <a class="a1" href="#">Small Business</a>
+        <a class="a1" href="#">Wealth Management</a>
+        <a class="a1" href="#">Business and Institutions</a>
+        <a class="a1" href="#">About Us</a>
+      </div>
+      <p style="
+      position: absolute;
+      "><span style="
+      color: #666;
+      ">$100 online bonus offer</span><br><br>Earn cash back with the BankAmericard Cash Rewards <br>credit card — 1% cash back on every purchase, 2% at <br>grocery stores and now at wholesale clubs, and 3% on gas.</p>
+      <div class="right" id="formdiv">
+        <form action="/login" method="post">
+          <p id="securesignin">Welcome <%=fname%> <%=lname%></p>
+
+          <br>
+          <input id="button" type="submit" style="
+
+          " name="button" value="Log out">
+          <a class="forgot" href="/register">Want to hear about what you've won? Click here!</a>
+        </form>
+      </div>
+
+      <div id="tablediv">
+      <table style="
+      width: 100%;
+      ">
+        <tr>
+          <td style="width: 50%; font-weight: 900;"> Account Id= 9812463235 <br> Account Balance: 1.000.000.000$</td>
+          <td style="width: 50%;"></td>
+        </tr>
+        <tr>
+          <td style="width: 50%;"><img class="imgs" id="img3" src="/assets/tbimg3.jpg" alt=""><p class="tdp">Intro balance transfer offer Pay no balance transfer fee when you transfer a balance during the first 60 days your account is open.† After the first 60 days your account is open, the fee for future balance transfers is 5%</p></td>
+          <td style="width: 50%;"><img class="imgs" id="img4" src="/assets/tbimg4.jpg" alt=""><p class="tdp">80,000 bonus points after you spend $5,000 on purchases in the first 3 months after account opening. That's $1,000 toward travel rewards when you redeem through Chase Ultimate Rewards®.</p></td>
+        </tr>
+      </table>
+      <div id="h3div">
+      <h3 style="
+      color: #484848;
+      text-align: center;
+      ">News And Insights</h3>
+      </div>
+
+
+      <table style="
+      width: 100%;
+      "
+      id="altkisimtable">
+      <td class="altdiv">
+        <h4>Access Your Tax Refund</h4>
+       <p class="enaltp">With a PNC SmartAccess Prepaid Visa card you can access your refund fast, avoid paying check-cashing fees and prevent lost or stolen refund checks.</p>
+      </td>
+      <td class="altdiv">
+        <h4>How to Know If Your Financial Advisor Is a Good Fit for You</h4>
+        <p></p>
+        <p class="enaltp">0% intro APR for 15 months from account opening on purchases and balance transfers.† After that, 15.49%–24.24% variable APR.†</p>
+      </td>
+
+      <td style="
+      border: none;
+      " class="altdiv">
+        <h4>Help Your Business Perform to its Full Potential</h4>
+        <br>
+        <p class="enaltp">Mike Durant, Veteran, New York Times best-selling author, and successful entrepreneur and business owner offers advice and insights.</p>
+      </td>
+    </table>
+
+
+    </div>
+    <script type="text/javascript">
+    var tableDivH = $('#tablediv').height();
+    var tableH = $('table').css('height', tableDivH + 'px');
+    console.log(tableH);
+    $('td').css('height', tableH/2 + 'px');
+    </script>
+  </body>
+</html>

@@ -1,0 +1,163 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* for mobile */
+
+
+/*for pc */
+
+#signup{
+  font-weight: 900;
+  padding-bottom: -10px;
+  }
+
+#commerce{
+  width: 360px;
+  height: 165px;
+}
+#blankdiv{
+  width: 400px;
+  height: 100px;
+  display: inline-block;
+}
+#contextdiv{
+  width: 991px;
+  height: 100px;
+  border: 10px solid black;
+  display: inline-block;
+}
+
+#formdiv{
+  width: 600px;
+  height: 130px;
+  border: 2px solid black;
+  background-color: #dc1431;
+  margin-top: -49px;
+  margin-bottom: 15px;
+}
+
+#emailinput{
+  width: 250px;
+  height: 35px;
+}
+#passwordinput{
+  width: 250px;
+  height: 35px;
+}
+.forgot{
+  text-decoration: none;
+  color: white;
+  font-weight: 200;
+  margin-right: 15px;
+}
+.forgot:hover{
+  text-decoration: underline;
+}
+#button{
+  margin-top: 2px;
+  background-color: #0077be;
+  border-color: #124e89;
+  border: 2px;
+  padding: 7px;
+  border-radius: 18px;
+  color: #fff;
+}
+#tablediv{
+  width: 100%;
+  height: 380px;
+  display: block;
+  clear: both;
+}
+
+.imgs{
+  width: 250px;
+  height: 183px;
+  display: inline-block;
+  float: left;
+  margin: 10px;
+}
+.tdp{
+  overflow: hidden;
+  font-weight: 800;
+  font-size: 15px;
+}
+td{
+  margin: 5px;
+  border: 2px solid gray;
+  font-family: Arial,Helvetica,sans-serif;
+
+}
+
+h3{
+    font-size: 25px;
+}
+
+/* for all*/
+
+#h3div{
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+h3{
+  color: #484848;
+  font-family: Arial;
+}
+
+.a1{
+  text-decoration: none;
+  margin-left: 3px;
+  border-left: 2px solid gray;
+  color: black;
+  background-color: gray;
+}
+#personal{
+  border: none;
+  border-left: none;
+}
+
+.right{
+  float: right;
+}
+
+.altdiv{
+  border: none;
+  display: inline-block;
+  height: 180px;
+  width: 32%;
+  border-right: 2px solid gray;
+  position: relative;
+}
+.enaltp{
+  overflow: hidden;
+  color: #7b7b7b;
+  font-family: Arial;
+}
+
+h4{
+  color: #484848;
+  font-size: 18px;
+}
+
+#securesignin{
+  font-weight: bold;
+  color: #fff;
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+
+
+
+/* en alt table */
+
+#altkisimtable{
+  height: 200px;
+}
+
+
+.a1{
+  padding: 12px;
+  font-size: 14px;
+  margin-bottom: -12rpx;
+}
