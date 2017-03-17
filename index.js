@@ -11,7 +11,7 @@ var port = process.env.PORT || 5000;
 
 var urlencodedParser = bodyParser.urlencoded({extended: false});
 
-mongoose.connect('mongodb://datadata:datadata@ds129010.mlab.com:29010/fakebank');
+mongoose.connect('');
 
 var Schema= mongoose.Schema;
 
